@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
                 Hire Me <ArrowRight className="ml-2 h-4 w-4" />
               </a>
               <a 
-                href="/Sahit_SecurityEngineer_CV.pdf" 
+                href="https://docs.google.com/document/d/12V3JIzcV9cKxdiD_0LNzqPGZwxsTHBOH/edit?usp=sharing&ouid=105677499525097862312&rtpof=true&sd=true" 
                 className="px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-medium rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
