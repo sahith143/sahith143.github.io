@@ -80,50 +80,34 @@ const Hero: React.FC = () => {
             </div>
           </div>
           
+           <div className="flex items-center">
+                  <span className="font-mono text-sm mr-1">HTB</span>
+                  <ExternalLink className="h-4 w-4" />
+                </div>
+              </a>
+            </div>
+          </div>
+          
           <div className="md:w-1/2 flex justify-center">
             <div className="relative">
               <div className="absolute inset-0 bg-teal-600 rounded-lg transform rotate-3"></div>
               <div className="absolute inset-0 bg-gray-800 dark:bg-gray-700 rounded-lg transform -rotate-3"></div>
               <div className="relative bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg z-10">
-                <div className="h-64 flex items-center justify-center font-mono text-sm text-gray-600 dark:text-gray-400 overflow-hidden">
-                  <pre className="text-left w-full">
-                    <code>
-                      <span className="text-blue-600 dark:text-blue-400">class</span> <span className="text-green-600 dark:text-green-400">SecurityAnalyst</span> {'{'}
-                        <br />
-                        &nbsp;&nbsp;<span className="text-blue-600 dark:text-blue-400">constructor</span>() {'{'}
-                        <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-purple-600 dark:text-purple-400">this</span>.name = <span className="text-yellow-600 dark:text-yellow-400">"Sahith"</span>;
-                        <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-purple-600 dark:text-purple-400">this</span>.skills = [<span className="text-yellow-600 dark:text-yellow-400">"Pen Testing"</span>, <span className="text-yellow-600 dark:text-yellow-400">"SIEM"</span>, <span className="text-yellow-600 dark:text-yellow-400">"Automation"</span>];
-                        <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-purple-600 dark:text-purple-400">this</span>.certifications = [<span className="text-yellow-600 dark:text-yellow-400">"IBM Cybersecurity Analyst"</span>];
-                        <br />
-                        &nbsp;&nbsp;{'}'}
-                        <br />
-                        <br />
-                        &nbsp;&nbsp;<span className="text-blue-600 dark:text-blue-400">async</span> <span className="text-green-600 dark:text-green-400">protectSystems</span>() {'{'}
-                        <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;<span className="text-blue-600 dark:text-blue-400">while</span>(<span className="text-purple-600 dark:text-purple-400">true</span>) {'{'}
-                        <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-blue-600 dark:text-blue-400">await</span> <span className="text-purple-600 dark:text-purple-400">this</span>.<span className="text-green-600 dark:text-green-400">scanForVulnerabilities</span>();
-                        <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="text-blue-600 dark:text-blue-400">await</span> <span className="text-purple-600 dark:text-purple-400">this</span>.<span className="text-green-600 dark:text-green-400">mitigateThreats</span>();
-                        <br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;{'}'}
-                        <br />
-                        &nbsp;&nbsp;{'}'}
-                        <br />
-                        {'}'}
-                      </code>
-                    </pre>
-                  </div>
+                <img 
+                  src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fkali-linux-arm-devices-installation-usage-tips-vijay-gupta--sh7sc&psig=AOvVaw19-P02KaXU2S5G96qK4I4_&ust=1747807620531000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDFp_awsY0DFQAAAAAdAAAAABAE" 
+                  alt="Kali Linux Tools Interface" 
+                  className="rounded-lg w-full h-auto shadow-lg"
+                />
+                <div className="mt-4 text-center text-sm text-gray-600 dark:text-gray-400 font-mono">
+                  Kali Linux - Advanced Penetration Testing Tools
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    );
+      </div>
+    </section>
+  );
 };
 
 export default Hero;
