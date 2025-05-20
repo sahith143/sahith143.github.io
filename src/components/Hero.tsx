@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-gray-800 dark:bg-gray-700 rounded-lg transform -rotate-3"></div>
               <div className="relative bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg z-10">
                 <img 
-                  src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fkali-linux-arm-devices-installation-usage-tips-vijay-gupta--sh7sc&psig=AOvVaw19-P02KaXU2S5G96qK4I4_&ust=1747807620531000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDFp_awsY0DFQAAAAAdAAAAABAE" 
+                  src="https://res.cloudinary.com/dtxttnxhx/image/upload/v1747730989/kali_fllvtx.png" 
                   alt="Kali Linux Tools Interface" 
                   className="rounded-lg w-full h-auto shadow-lg"
                 />
