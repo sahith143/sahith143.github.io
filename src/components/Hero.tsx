@@ -79,15 +79,7 @@ const Hero: React.FC = () => {
               </a>
             </div>
           </div>
-          
-           <div className="flex items-center">
-                  <span className="font-mono text-sm mr-1">HTB</span>
-                  <ExternalLink className="h-4 w-4" />
-                </div>
-              </a>
-            </div>
-          </div>
-          
+
           <div className="md:w-1/2 flex justify-center">
             <div className="relative">
               <div className="absolute inset-0 bg-teal-600 rounded-lg transform rotate-3"></div>
@@ -104,6 +96,7 @@ const Hero: React.FC = () => {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
